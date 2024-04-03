@@ -6,6 +6,11 @@ body {
     box-sizing: border-box;
 }
 
+.testContainer {
+    // background-color: green;
+    height: 1000px;
+}
+
 header {
     display: flex;
     height: 79px;
@@ -15,6 +20,14 @@ header {
     top: 0px;
     width: 100%;
     z-index: 10;
+}
+
+.scrolled {
+    background-color: #3C3C3C;
+}
+
+.scrolledIcon {
+    stroke: white !important;
 }
 
 .navRight {

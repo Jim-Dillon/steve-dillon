@@ -1,25 +1,45 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../css/header.module.scss';
-import logo from '/src/assets/img/SD_Logo.svg';
+import { blackLogo, whiteLogo } from '../assets/SVG';
 
 const Header = () => {
     const [showDropdown, setShowDropdown] = useState(false);
+    const [scrolled, setScrolled] = useState(false)
 
     const toggleDropdown = () => {
         setShowDropdown(!showDropdown);
+        setScrolled(!showDropdown || window.scrollY > 50);
+
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (!showDropdown && window.scrollY > 50)  {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [showDropdown]);
+    
+
     return (
-        <header>
+        <header className={scrolled ? styles.scrolled : ''}>
             <Link to="/">
-                <img src={logo} alt="" />
+                {scrolled ? whiteLogo : blackLogo}
             </Link>
             <div className={styles.navRight}>
                 <div className={styles.topNav}>
                     <Link to="#" className={styles.dropdownLink} onClick={toggleDropdown}>
                         <svg
-                            className={styles.dropdownIcon}
+                            className={`${styles.dropdownIcon} ${scrolled ? styles.scrolledIcon : ''}`}
                             xmlns="http://www.w3.org/2000/svg"
                             width="30"
                             height="30"

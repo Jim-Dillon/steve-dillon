@@ -1,8 +1,15 @@
-import Header from "../components/Header"
+import Header from "../components/Header";
+import styles from '../css/header.module.scss';
 
 const HomePage = () => {
   return (
-    <Header />
+    <>
+      <Header />
+      <div className={styles.testContainer}>
+
+      </div>
+    </>
+    
   )
 }
 

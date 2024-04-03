@@ -32,12 +32,36 @@ const Header = () => {
 
     return (
         <header className={scrolled ? styles.scrolled : ''}>
-            <Link to="/">
+            <Link to="/" className={styles.logo}>
                 {scrolled ? whiteLogo : blackLogo}
             </Link>
             <div className={styles.navRight}>
                 <div className={styles.topNav}>
-                    <Link to="#" className={styles.dropdownLink} onClick={toggleDropdown}>
+                    <ul>
+                        <li>
+                            <Link 
+                                to="/about" 
+                                className={scrolled ? styles.scrolledText : ''}>About
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                to="/exhibitions"
+                                className={scrolled ? styles.scrolledText : ''}>Exhibitions
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                to="/showcase"
+                                className={scrolled ? styles.scrolledText : ''}>Showcase
+                            </Link>
+                        </li>
+                        <li className={styles.contactButton}>
+                            <Link to="/contact">Get in Touch</Link>
+                        </li>
+                    </ul>
+                </div>
+                <Link to="#" className={styles.dropdownLink} onClick={toggleDropdown}>
                         <svg
                             className={`${styles.dropdownIcon} ${scrolled ? styles.scrolledIcon : ''}`}
                             xmlns="http://www.w3.org/2000/svg"
@@ -48,22 +72,21 @@ const Header = () => {
                             <path d="M4 6h22M4 15h22M4 24h22" strokeWidth="2" strokeLinecap="round" />
                         </svg>
                     </Link>
-                </div>
             </div>
             <div className={`${styles.dropdownMenuContainer} ${showDropdown ? styles.showDropdown : ''}`}>
                 <div className={styles.dropdownMenu}>
                     <ul>
-                        <li className={styles.dropdownItem}>
+                        <li>
                             <Link to="/about">About</Link>
                         </li>
-                        <li className={styles.dropdownItem}>
+                        <li>
                             <Link to="/exhibitions">Exhibitions</Link>
                         </li>
-                        <li className={styles.dropdownItem}>
+                        <li>
                             <Link to="/showcase">Showcase</Link>
                         </li>
-                        <li className={styles.dropdownItem}>
-                            <Link to="/contact">Contact</Link>
+                        <li className={styles.contactButton}>
+                            <Link to="/contact">Get in Touch</Link>
                         </li>
                     </ul>
                 </div>

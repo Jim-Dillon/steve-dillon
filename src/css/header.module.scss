@@ -13,13 +13,25 @@ body {
 
 header {
     display: flex;
-    height: 79px;
+    height: 65px;
     justify-content: space-between;
-    padding: 24px 16px;
+    padding: 1rem;
     position: sticky;
     top: 0px;
     width: 100%;
     z-index: 10;
+
+    @media (min-width: 900px) {
+        height: 115px;
+        padding: 2rem;
+    }
+}
+
+.logo {
+    @media (min-width: 900px) {
+        padding-top: 10px;
+    }    
+    
 }
 
 .scrolled {
@@ -30,13 +42,43 @@ header {
     stroke: white !important;
 }
 
+.scrolledText {
+    color: white !important;
+}
+
 .navRight {
-    // display: none;
+    display: flex;
+}
+
+.topNav {
+    display: none;
 
     @media (min-width: 900px) {
         display: flex;
+    }  
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0px;
+
+        li {
+            font-family: "Inter", sans-serif;
+            font-size: 16px;
+            padding: 16px 12px;
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
     }
-    
+}
+
+.dropdownLink {
+    @media (min-width: 900px) {
+        display: none;
+    }
 }
 
 .dropdownIcon {
@@ -50,10 +92,10 @@ header {
 .dropdownMenuContainer {
     display: none;
     background-color: #99919794;
-    height: calc(100vh - 79px);
+    height: calc(100vh - 65px);
     left: 0px;
     position: absolute;
-    top: 79px;
+    top: 65px;
     width: 100%;
     z-index: 10;
 
@@ -72,15 +114,38 @@ header {
     right: 0px;
     top: 0px;
 
-    li {
-        font-family: "Inter", sans-serif;
-        font-size: 14px;
-        list-style: none;
-        padding: 8px;
+    ul {
+        padding: 1.5rem 1rem;
 
-        a {
-            text-decoration: none;
+        li {
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            list-style: none;
+            padding: 8px;
+    
+            a {
+                color: black;
+                text-decoration: none;
+            }
         }
+    }
+}
+
+.contactButton {
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    margin-top: 0.5rem;
+    padding-bottom: 16px !important;
+    padding-top: 16px !important;
+    text-align: center;
+
+    a {
+        color: white !important;
+    }
+
+    @media (min-width: 900px) {
+        margin-top: 0px;
     }
 }
 

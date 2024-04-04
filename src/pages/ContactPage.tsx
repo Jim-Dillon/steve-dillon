@@ -1,8 +1,16 @@
-import { Link } from "react-router-dom";
+import styles from '/src/css/contact.module.scss'
+import Header from "../components/Header"
 
 const ContactPage = () => {
   return (
-    <Link to="/">Back to Home</Link>
+    <>
+      <Header/>
+      <div className={styles.contactPageSection}>
+        
+      </div>
+    </>
+    
+
   )
 }
 

@@ -25,13 +25,9 @@ const HomePage = () => {
         <div className={styles.whatsNewImageContainer}>
           <img src={book} alt="" className={styles.whatsNewImage} />
         </div>
-        <div className={styles.whatsNewBookTitle}>
-          <h2>Name of book</h2>
-        </div>
         <div className={styles.whatsNewContent}>
+          <h2>Name of book</h2>
           <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.</p>
-        </div>
-        <div className={styles.whatsNewButton}>
           <Button>
             Order a copy
           </Button>
@@ -40,6 +36,13 @@ const HomePage = () => {
       <div className={styles.onlineStoreSection}>
         <div className={styles.storeImageContainer}>
           <img src={store} alt="" />
+        </div>
+        <div className={styles.storeContent}>
+          <h2>Check out our online store</h2>
+          <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in.</p>
+          <Button>
+            Shop now
+          </Button>
         </div>
       </div>
     </> 

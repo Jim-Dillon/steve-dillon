@@ -1,15 +1,23 @@
 .homeIntroSection {
-    height: 756px;
+    height: 764px;
     padding: 10px 12px 0px 4px;
 }
 
+.homeImageContainer {
+    margin: 0 auto;
+    width: 373px;
+}
+
 .homeIntroText {
+    margin: 0 auto;
     margin-top: 2rem;
-    padding-left: 12px;
+    padding-left: 6px;
+    width: 358px;
 
     p {
         font-family: "Inter", sans-serif;
         font-size: 14px;
+        line-height: 21px;
         text-align: center;
     }
 }
@@ -17,7 +25,7 @@
 .whatsNewSection {
     background-color: #f4f4f4;
     font-family: "Inter", sans-serif;
-    height: 762px;
+    height: 794px;
     padding: 3rem 1rem;  
 }
 
@@ -26,9 +34,9 @@
     width: 358px;
 
     h1 {
-        border-width: 2px 0 2px 1px;
         border-color: #e4e4e4;
         border-style: solid;
+        border-width: 2px 0 2px 1px;
         font-size: 28px;
         font-weight: 600;
         position: relative;
@@ -36,22 +44,20 @@
 
         &::before,
         &::after {
+            background-color: #e4e4e4;
             content: "";
             position: absolute;
-            // width: 70px;
-            background-color: #e4e4e4;
         }
 
         &::before {
             background-color: #f4f4f4;
-            height: 34px;
-            top: -2px;
-            left: -30px;
-            border-width: 2px 0px;
             border-color: #e4e4e4;
             border-style: solid;
+            border-width: 2px 0px;
+            height: 34px;
+            left: -30px;
+            top: -2px;
             width: 30px;
-            
         }
 
         &::after {
@@ -61,7 +67,6 @@
             transform: rotate(90deg);
             width: 88px;
         }
-        
     }
 }
 
@@ -74,7 +79,8 @@
     }
 }
 
-.whatsNewBookTitle {
+
+.whatsNewContent {
     margin: 0 auto;
     margin-top: 30px;
     width: 358px;
@@ -82,20 +88,11 @@
     h2 {
         font-size: 20px;
     }
-}
-
-.whatsNewContent {
-    margin: 0 auto;
-    width: 358px;
 
     p {
+        line-height: 24px;
         width: 358px;
     }
-}
-
-.whatsNewButton {
-    margin: 0 auto;
-    width: 358px;
 }
 
 .btn {
@@ -119,5 +116,23 @@
 }
 
 .storeImageContainer {
+    margin: 0 auto;
     padding-top: 2.2rem;
+    width: 358px;
+}
+
+.storeContent {
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 358px;
+
+    h2 {
+        font-size: 20px; 
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
 }

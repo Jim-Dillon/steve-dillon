@@ -1,0 +1,126 @@
+.aboutSection {
+    padding: 2rem 0 0;
+}
+
+.aboutTopContent {
+    margin: 0 auto;
+    width: 358px;
+    
+    h1 {
+        border-color: #e4e4e4;
+        border-style: solid;
+        border-width: 1px 0 1px 1px;
+        line-height: 25px;
+        font-family: "Kalam", cursive;
+        font-size: 42px;  
+        padding-top: 10px;
+        position: relative;
+        width: 116px;
+
+        &::before,
+        &::after {
+            background-color: #e4e4e4;
+            content: "";
+            position: absolute;
+        }
+
+        &::before {
+            background-color: white;
+            border-color: #e4e4e4;
+            border-style: solid;
+            border-width: 1px 0px;
+            height: 35px;
+            left: -30px;
+            top: -1px;
+            width: 30px;
+        }
+
+        &::after {
+            bottom: -150px;
+            height: 1px;
+            left: -213px;
+            transform: rotate(90deg);
+            width: 421px;
+        }
+    }
+
+    p {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .aboutTopPara {
+        border-color: #e4e4e4;
+        border-width: 1px 0 0;
+        border-style: solid;
+        position: relative;
+
+        &::before {
+            background-color: transparent;
+            border-color: #e4e4e4;
+            border-style: solid;
+            border-width: 1px 0px 0px;
+            content: "";
+            height: 35px;
+            left: -29px;
+            position: absolute;
+            top: -1px;
+            width: 30px;
+        }
+    }
+}
+
+.steveImgContainer {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 390px;
+
+    img {
+        max-width: 100%
+    }
+}
+
+.aboutSecondContent {
+    margin: 0 auto;
+    width: 358px;
+
+    p {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+.aboutImagesContainer {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 2rem 0 1rem;
+    width: 358px;
+
+    img {
+        margin-bottom: 1rem;
+        width: 358px;
+    }
+}
+
+.aboutSupportContainer {
+    background-color: #e4e4e4;
+    padding: 2rem 0;
+}
+
+.aboutSupportContent {
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    width: 358px;
+
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    p {
+        line-height: 24px;
+        width: 358px;
+    }
+}

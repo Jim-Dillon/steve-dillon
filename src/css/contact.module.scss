@@ -3,3 +3,32 @@
     background-position-x: -176px;
     height: calc(100vh - 65px)
 }
+
+.contactContent {
+    background-color: white;
+    border-radius: 16px;
+    height: 358px;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    top: calc(50% - 180px);
+    width: 358px;
+
+    h1 {
+        font-family: "Kalam", cursive;
+        font-size: 38px;
+        margin: 0px;
+    }
+
+    p {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    h2 {
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

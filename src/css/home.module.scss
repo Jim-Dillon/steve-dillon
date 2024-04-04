@@ -1,0 +1,123 @@
+.homeIntroSection {
+    height: 756px;
+    padding: 10px 12px 0px 4px;
+}
+
+.homeIntroText {
+    margin-top: 2rem;
+    padding-left: 12px;
+
+    p {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+.whatsNewSection {
+    background-color: #f4f4f4;
+    font-family: "Inter", sans-serif;
+    height: 762px;
+    padding: 3rem 1rem;  
+}
+
+.whatsNewTitle {
+    margin: 0 auto;
+    width: 358px;
+
+    h1 {
+        border-width: 2px 0 2px 1px;
+        border-color: #e4e4e4;
+        border-style: solid;
+        font-size: 28px;
+        font-weight: 600;
+        position: relative;
+        width: 160px;
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            // width: 70px;
+            background-color: #e4e4e4;
+        }
+
+        &::before {
+            background-color: #f4f4f4;
+            height: 34px;
+            top: -2px;
+            left: -30px;
+            border-width: 2px 0px;
+            border-color: #e4e4e4;
+            border-style: solid;
+            width: 30px;
+            
+        }
+
+        &::after {
+            bottom: 15px;
+            height: 2px;
+            left: -46px;
+            transform: rotate(90deg);
+            width: 88px;
+        }
+        
+    }
+}
+
+.whatsNewImageContainer {
+    margin: 0 auto;
+    width: 358px;
+
+    img {
+        width: 358px;
+    }
+}
+
+.whatsNewBookTitle {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 358px;
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+.whatsNewContent {
+    margin: 0 auto;
+    width: 358px;
+
+    p {
+        width: 358px;
+    }
+}
+
+.whatsNewButton {
+    margin: 0 auto;
+    width: 358px;
+}
+
+.btn {
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+
+.onlineStoreSection {
+    background-image: url(../assets/points_background.svg);
+    background-position-x: 104%;
+    background-position-y: 40px;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 3rem 1rem;
+}
+
+.storeImageContainer {
+    padding-top: 2.2rem;
+}

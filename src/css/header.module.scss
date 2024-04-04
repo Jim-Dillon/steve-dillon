@@ -6,12 +6,8 @@ body {
     box-sizing: border-box;
 }
 
-.testContainer {
-    // background-color: green;
-    height: 1000px;
-}
-
 header {
+    background-color: white;
     display: flex;
     height: 65px;
     justify-content: space-between;
@@ -28,10 +24,13 @@ header {
 }
 
 .logo {
-    @media (min-width: 900px) {
-        padding-top: 10px;
-    }    
-    
+
+    svg {
+        @media (min-width: 900px) {
+            height: 50px;
+            width: 170px;
+        }
+    }  
 }
 
 .scrolled {
@@ -145,6 +144,7 @@ header {
     }
 
     @media (min-width: 900px) {
+        margin-left: 16px;
         margin-top: 0px;
     }
 }

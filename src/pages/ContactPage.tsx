@@ -12,6 +12,11 @@ const ContactPage = () => {
           <h2>Email us</h2>
           <p>exhibitions.stevedillon@gmail.com</p>
           <h2>Follow us</h2>
+          <div className={styles.smIcons}>
+            <button></button>
+            <button></button>
+            <button></button>
+          </div>
         </div>
       </div>
     </>

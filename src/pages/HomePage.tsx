@@ -38,20 +38,27 @@ const HomePage = () => {
         </div>
       </div>
       <div className={styles.whatsNewSection}>
-        <div className={styles.whatsNewTitle}>
-          <h1>What's new</h1>
+        <div className={styles.whatsNewContainer}>
+          <div className={styles.whatsNew_ColOne}>
+            <div className={styles.whatsNewTitle}>
+              <h1>What's new</h1>
+            </div>
+            <div className={styles.whatsNewImageContainer}>
+              <img src={book} alt="" className={styles.whatsNewImage} />
+            </div>
+          </div>
+          <div className={styles.whatsNew_ColTwo}>
+            <div className={styles.whatsNewContent}>
+              <h2>Name of book</h2>
+              <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.</p>
+              <Button
+                linkPath={'https://2000ad.com/news/announcing-the-2000-ad-art-of-steve-dillon-apex-edition/'}>
+                Order a copy
+              </Button>
+            </div>  
+          </div>
         </div>
-        <div className={styles.whatsNewImageContainer}>
-          <img src={book} alt="" className={styles.whatsNewImage} />
-        </div>
-        <div className={styles.whatsNewContent}>
-          <h2>Name of book</h2>
-          <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.</p>
-          <Button
-            linkPath={'https://2000ad.com/news/announcing-the-2000-ad-art-of-steve-dillon-apex-edition/'}>
-            Order a copy
-          </Button>
-        </div>
+        
       </div>
       <div className={styles.onlineStoreSection}>
         <div className={styles.storeImageContainer}>

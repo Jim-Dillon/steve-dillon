@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import styles from '../css/home.module.scss';
-import preacher from '/src/assets/img/preacher.png';
+import preacher from '/src/assets/img/home_grid/one.png';
+import skull from '/src/assets/img/home_grid/five.png'
 import book from '/src/assets/img/2000ad.png'; 
 import store from '/src/assets/shop_img.svg';
 import Button from "../components/shared/Button";
@@ -11,7 +12,15 @@ const HomePage = () => {
       <Header />
       <div className={styles.homeIntroSection}>
         <div className={styles.homeImageContainer}>
-          <img src={preacher} alt="" className={styles.homeImage}/>
+          <div className={styles.homeImage_ColOne}>
+            <img src={preacher} alt="" className={styles.homeImage}/>
+          </div>
+          <div className={styles.homeImage_ColTwo}>
+            <img src={preacher} alt="" className={styles.homeImage}/>
+          </div>
+          <div className={styles.homeImage_ColThree}>
+            <img src={skull} alt="" className={styles.homeImage}/>
+          </div>
         </div>
         <div className={styles.homeIntroText}>
           <p>Celebrating the work of Steve Dillon</p>

@@ -17,6 +17,10 @@ header {
     width: 100%;
     z-index: 10;
 
+    a {
+        cursor: pointer;
+    }
+
     @media (min-width: 900px) {
         height: 115px;
         padding: 2rem;

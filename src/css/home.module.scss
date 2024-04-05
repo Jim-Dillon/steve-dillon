@@ -4,8 +4,37 @@
 }
 
 .homeImageContainer {
+    display: flex;
     margin: 0 auto;
     width: 373px;
+
+    @media (min-width: 800px) {
+        width: 746px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 1118px;
+    }
+}
+
+.homeImage_ColTwo {
+    display: none;
+
+    @media (min-width: 800px) {
+        display: block;
+    }
+}
+
+.homeImage_ColThree {
+    display: none;
+
+    img {
+        height: 557px;
+    }
+
+    @media (min-width: 1200px) {
+        display: block;
+    }
 }
 
 .homeIntroText {
@@ -30,6 +59,7 @@
 }
 
 .whatsNewTitle {
+    line-height: 22px;
     margin: 0 auto;
     width: 358px;
 
@@ -54,7 +84,7 @@
             border-color: #e4e4e4;
             border-style: solid;
             border-width: 2px 0px;
-            height: 34px;
+            height: 22px;
             left: -30px;
             top: -2px;
             width: 30px;

@@ -6,10 +6,12 @@ import { blackLogo, whiteLogo } from '../assets/SVG';
 const Header = () => {
     const [showDropdown, setShowDropdown] = useState(false);
     const [scrolled, setScrolled] = useState(false)
+    const [togglePath, setTogglePath] = useState(false);
 
     const toggleDropdown = () => {
         setShowDropdown(!showDropdown);
         setScrolled(!showDropdown || window.scrollY > 50);
+        setTogglePath(!togglePath)
 
     };
 
@@ -28,6 +30,10 @@ const Header = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [showDropdown]);
+
+    const svgPath = togglePath 
+        ? "M2 6l10 10 10-10M2 26l10-10 10 10"
+        : "M4 6h22M4 15h22M4 24h22";
     
 
     return (
@@ -69,7 +75,7 @@ const Header = () => {
                             height="30"
                             viewBox="0 0 30 30"
                         >
-                            <path d="M4 6h22M4 15h22M4 24h22" strokeWidth="2" strokeLinecap="round" />
+                            <path d={svgPath} strokeWidth="2" strokeLinecap="round" fill="none" />
                         </svg>
                     </Link>
             </div>

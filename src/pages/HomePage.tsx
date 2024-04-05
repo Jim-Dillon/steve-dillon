@@ -1,6 +1,9 @@
 import Header from "../components/Header";
 import styles from '../css/home.module.scss';
 import preacher from '/src/assets/img/home_grid/one.png';
+import tiedUp from '/src/assets/img/home_grid/two.png'
+import capAm from '/src/assets/img/home_grid/three.png'
+import punisher from '/src/assets/img/home_grid/four.png'
 import skull from '/src/assets/img/home_grid/five.png'
 import book from '/src/assets/img/2000ad.png'; 
 import store from '/src/assets/shop_img.svg';
@@ -16,7 +19,14 @@ const HomePage = () => {
             <img src={preacher} alt="" className={styles.homeImage}/>
           </div>
           <div className={styles.homeImage_ColTwo}>
-            <img src={preacher} alt="" className={styles.homeImage}/>
+            <div className={styles.homeImage_RowOne}>
+              <img src={tiedUp} alt="" className={styles.homeImage}/> 
+            </div>
+            <div className={styles.homeImage_RowTwo}>
+              <img src={capAm} alt="" className={styles.homeImage}/>
+              <img src={punisher} alt="" className={styles.homeImage}/>
+            </div>
+            
           </div>
           <div className={styles.homeImage_ColThree}>
             <img src={skull} alt="" className={styles.homeImage}/>

@@ -1,5 +1,8 @@
 import styles from '/src/css/exhib.module.scss'
+import enniskillen from '/src/assets/img/enniskillen.png'
 import Header from "../components/Header"
+import Timeline from '../components/Timeline'
+import Button from '../components/shared/Button'
 
 const ExhibitionsPage = () => {
   return (
@@ -11,7 +14,7 @@ const ExhibitionsPage = () => {
             <h1>Exhibitions</h1>
             <h2>Coming Up</h2>
             <div className={styles.exhibImageContainer}>
-              <img src="" alt="" />
+              <img src={enniskillen} alt="" />
             </div>
             <p>20th - 28th July 2024</p>
             <h2>Enniskillen Comic Fest</h2>
@@ -20,13 +23,21 @@ const ExhibitionsPage = () => {
           </div>
         </div>
         <div className={styles.exhibTimeline}>
-
+          <Timeline/>
         </div>
         <div className={styles.exhibFeature}>
-
+          <div className={styles.exhibFeatureContent}>
+            <h2>Feature the exhibition</h2>
+            <p>We’re very proud every time we’re able to bring the exhibition to a new space. If you’re interested in including the Steve Dillon Exhibition in your upcoming show, please feel free to reach out and say hello... </p>
+            <div className={styles.exhibFeatureButton}>
+              <Button
+                linkPath="/contact">
+                Say hello... 
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
-      
     </>
   )
 }

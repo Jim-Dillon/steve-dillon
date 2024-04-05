@@ -1,6 +1,6 @@
 .exhibTopSection {
-    border-bottom: 4px solid black;
-    height: 710px; 
+    border-bottom: 4px solid black; 
+    padding: 0rem 0rem 2rem;
     transform: skewY(355deg);
 }
 
@@ -24,18 +24,124 @@
     }
 }
 
+.exhibImageContainer {
+    margin: 0 auto;
+    width: 358px;
+
+    img {
+        width: 358px;
+    }
+}
+
 .exhibTimeline {
     background-color: #e4e4e4;
     border-bottom: 4px solid black;
     border-top: 4px solid black;
-    height: 1000px;
     margin: 1rem 0;
+    padding: 4rem 1rem;
     transform: skewY(355deg);
-    width: 390px;
+}
+
+.timelineContent {
+    display: flex;
+    justify-content: center;
+    transform: skewY(365deg);
+}
+
+.timelineGraphic {
+    padding: 6rem 0;
+}
+
+.timelineSection {
+    background-color: #d9d9d9;
+    content: '';
+    height: 524px;
+    right: 1.4rem;
+    position: relative;
+    width: 4px;
+
+    &::before {
+        background-color: #d9d9d9;
+        border-radius: 50px;
+        content: '';
+        height: 22px;
+        position: absolute;
+        right: -9px;
+        width: 22px;
+    }
+
+    &.last {
+        &::after {
+            background-color: #d9d9d9;
+            border-radius: 50px;
+            bottom: 0px;
+            content: '';
+            height: 22px;
+            position: absolute;
+            right: -9px;
+            width: 22px;
+        }
+    }
+}
+
+// .timelineItem {
+//     // height: 480px;
+// }
+
+.timelineItemContainer {
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 289px;
+
+    img {
+        height: 235px;
+        object-fit: cover;
+        padding-bottom: 1rem;
+        width: 289px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 0.7rem 0;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    span {
+        font-size: 10px;
+    }
 }
 
 .exhibFeature {
     border-top: 4px solid black;
     height: 300px;
     transform: skewY(355deg);
+}
+
+.exhibFeatureContent {
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    padding: 3rem 0 2rem;
+    transform: skewY(365deg);
+    width: 326px;
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        margin: 1.8rem 0;
+        line-height: 20px;
+    }
+}
+
+.exhibFeatureButton {
+    margin: 0 auto;
+    width: 120px;
 }

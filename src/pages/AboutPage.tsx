@@ -30,7 +30,7 @@ const AboutPage = () => {
           <div className={styles.aboutSupportContent}>
             <h2>Support the Exhibition</h2>
             <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod.</p>
-            <Button>
+            <Button linkPath={'https://www.gofundme.com/f/steve-dillon-exhibition'}>
               Donate
             </Button>
           </div>

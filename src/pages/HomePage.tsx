@@ -28,7 +28,8 @@ const HomePage = () => {
         <div className={styles.whatsNewContent}>
           <h2>Name of book</h2>
           <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.</p>
-          <Button>
+          <Button
+            linkPath={'https://2000ad.com/news/announcing-the-2000-ad-art-of-steve-dillon-apex-edition/'}>
             Order a copy
           </Button>
         </div>

@@ -1,5 +1,9 @@
 .aboutSection {
     padding: 2rem 0 0;
+
+    @media (min-width: 1200px) {
+        padding: 3rem 0 0;
+    }
 }
 
 .aboutTopContent {
@@ -48,6 +52,14 @@
         font-family: "Inter", sans-serif;
         font-size: 14px;
         line-height: 24px;
+
+        @media (min-width: 900px) {
+            font-size: 18px;
+        }
+
+        @media (min-width: 1200px) {
+            line-height: 26px;
+        }        
     }
 
     .aboutTopPara {
@@ -89,30 +101,108 @@
         font-family: "Inter", sans-serif;
         font-size: 14px;
         line-height: 24px;
+
+        @media (min-width: 900px) {
+            font-size: 18px;
+            margin-top: 2rem;
+        }
     }
 }
 
 .aboutImagesContainer {
     margin: 0 auto;
     margin-bottom: 1rem;
-    padding: 2rem 0 1rem;
+    padding: 2rem 0 0;
     width: 358px;
+
+    @media (min-width: 900px) {
+        margin-bottom: 2rem;
+    }
 
     img {
         margin-bottom: 1rem;
         width: 358px;
+
+        @media (min-width: 650px) {
+            margin-bottom: 1.5rem;
+            width: 460px;
+        }
+
+        @media (min-width: 900px) {
+            margin-bottom: 2rem;
+            width: 596px;
+        }
+
+        @media (min-width: 1200px) {
+            width: 678px;
+        }
+    }
+}
+
+.aboutThirdContent {
+    margin: 0 auto 4rem;
+    width: 358px;
+
+    p {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+
+        @media (min-width: 900px) {
+            font-size: 18px;
+            width: 596px;
+        }
+
+        @media (min-width: 1200px) {
+            width: 678px;
+        }
+    }
+
+    ul {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+
+        @media (min-width: 900px) {
+            font-size: 18px;
+            width: 596px;
+        }
+
+        @media (min-width: 1200px) {
+            width: 678px;
+        }
     }
 }
 
 .aboutSupportContainer {
     background-color: #e4e4e4;
     padding: 2rem 0;
+
+    @media (min-width: 650px) {
+        padding: 3rem 0;
+    }
+
+    @media (min-width: 650px) {
+        padding: 3.5rem 0;
+    }
 }
 
 .aboutSupportContent {
     font-family: "Inter", sans-serif;
     margin: 0 auto;
     width: 358px;
+
+    @media (min-width: 650px) {
+        width: 460px;
+    }
+
+    @media (min-width: 900px) {
+        width: 596px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 678px;
+    }
 
     h2 {
         font-size: 20px;
@@ -122,5 +212,35 @@
     p {
         line-height: 24px;
         width: 358px;
+
+        @media (min-width: 650px) {
+            width: 460px;
+        }
+
+        @media (min-width: 900px) {
+            font-size: 18px;
+            width: 596px;
+        }
+
+        @media (min-width: 1200px) {
+            line-height: 26px;
+            width: 678px;
+        }
     }
 }
+
+
+.aboutTopContent, .steveImgContainer, .aboutSecondContent, .aboutImagesContainer, .aboutImagesContainer, .aboutThirdContent, .aboutSupportContent {
+    @media (min-width: 650px) {
+        width: 460px;
+    }
+
+    @media (min-width: 900px) {
+        width: 596px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 678px;
+    }
+}
+

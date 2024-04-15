@@ -14,18 +14,21 @@ const TimelineItem: FunctionComponent<TimelineItemProps> = ({ timelineImg, date,
     <div className={styles.timelineItem}>
         <div className={styles.timelineItemContainer}>
             <img src={timelineImg} alt="" />
-            <div className={styles.timelineItemDate}>
-                <span>{date}</span>
-            </div>
-            <div className={styles.timelineItemName}>
-                <h2>{eventName}</h2>
-            </div>
-            <div className={styles.timelineItemContent}>
-                <p>{content}</p>
-            </div>
-            <div className={styles.timelineItemLocation}>
-                <span>{location}</span>
-            </div>
+            <div className={styles.timelineDesc}>
+                <div className={styles.timelineItemDate}>
+                    <span>{date}</span>
+                </div>
+                <div className={styles.timelineItemName}>
+                    <h2>{eventName}</h2>
+                </div>
+                <div className={styles.timelineItemContent}>
+                    <p>{content}</p>
+                </div>
+                <div className={styles.timelineItemLocation}>
+                    <span>{location}</span>
+                </div>
+                
+            </div>   
         </div>
     </div>
   )

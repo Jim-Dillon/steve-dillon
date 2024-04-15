@@ -1,7 +1,11 @@
 .contactPageSection {
     background-image: url(/src/assets/img/contact_background.png);
-    background-position-x: -176px;
-    height: calc(100vh - 65px)
+    background-position-x: -276px;
+    height: calc(100vh - 65px);
+
+    @media (min-width: 900px) {
+        height: calc(100vh - 115px);
+    }
 }
 
 .contactContent {
@@ -14,10 +18,27 @@
     top: calc(50% - 180px);
     width: 358px;
 
+    @media (min-width: 800px) {
+        height: 400px;
+        padding: 2.5rem;
+        width: 400px;
+    }
+
+    @media (min-width: 1200px) {
+        height: 487px;
+        padding: 4rem;
+        top: calc(50% - 240px);
+        width: 558px;
+    }
+
     h1 {
         font-family: "Kalam", cursive;
         font-size: 38px;
         margin: 0px;
+
+        @media (min-width: 1200px) {
+            font-size: 62px;
+        }
     }
 
     p {
@@ -26,6 +47,10 @@
         line-height: 24px;
         margin-bottom: 1.4rem;
         margin-top: 0px;
+
+        @media (min-width: 1200px) {
+            font-size: 16px;
+        }
     }
 
     h2 {
@@ -34,6 +59,11 @@
         font-weight: 600;
         margin-bottom: 0.4rem;
         margin-top: 1.4rem;
+
+        @media (min-width: 1200px) {
+            font-size: 24px;
+            font-weight: 700;
+        }
     }
 }
 
@@ -45,5 +75,17 @@
         height: 30px;
         margin-right: 1rem;
         width: 30px;
+
+        @media (min-width: 800px) {
+            height: 34px;
+            margin-right: 0.7rem;
+            width: 34px;
+        }
+
+        @media (min-width: 1200px) {
+            height: 40px;
+            margin-right: 1rem;
+            width: 40px;
+        }
     }
 }

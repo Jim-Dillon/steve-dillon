@@ -26,6 +26,16 @@ const AboutPage = () => {
           <img src={panel} alt="" />
           <img src={luton} alt="" />
         </div>
+        <div className={styles.aboutThirdContent}>
+          <p>Reviews section - Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod.  
+          </p>
+          <ul className={styles.reviewsList}>
+            <li>Review One</li>
+            <li>Review One</li>
+            <li>Review One</li>
+            <li>Review One</li>
+          </ul>
+        </div>
         <div className={styles.aboutSupportContainer}>
           <div className={styles.aboutSupportContent}>
             <h2>Support the Exhibition</h2>

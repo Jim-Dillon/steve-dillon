@@ -46,24 +46,24 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link 
-                                to="/steve-dillon/about" 
+                                to="/about" 
                                 className={scrolled ? styles.scrolledText : ''}>About
                             </Link>
                         </li>
                         <li>
                             <Link 
-                                to="/steve-dillon/exhibitions"
+                                to="/exhibitions"
                                 className={scrolled ? styles.scrolledText : ''}>Exhibitions
                             </Link>
                         </li>
                         <li>
                             <Link 
-                                to="/steve-dillon/showcase"
+                                to="/showcase"
                                 className={scrolled ? styles.scrolledText : ''}>Showcase
                             </Link>
                         </li>
                         <li className={styles.contactButton}>
-                            <Link to="/steve-dillon/contact">Get in Touch</Link>
+                            <Link to="/contact">Get in Touch</Link>
                         </li>
                     </ul>
                 </div>

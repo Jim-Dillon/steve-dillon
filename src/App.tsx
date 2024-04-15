@@ -10,7 +10,7 @@ import ContactPage from './pages/ContactPage';
 const App = () => {
   
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<AboutPage />}>

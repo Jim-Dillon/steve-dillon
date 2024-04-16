@@ -1,26 +1,26 @@
-<svg width="268" height="158" viewBox="0 0 268 158" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="4" cy="154" r="4" transform="rotate(-90 4 154)" fill="#BEBEBE"/>
-<circle cx="54" cy="154" r="4" transform="rotate(-90 54 154)" fill="#BEBEBE"/>
-<circle cx="104" cy="154" r="4" transform="rotate(-90 104 154)" fill="#BEBEBE"/>
+<svg width="270" height="158" viewBox="0 0 270 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="4" cy="154" r="4" transform="rotate(-90 4 154)" fill="#BEBEBE" fill-opacity="0.6"/>
+<circle cx="54" cy="154" r="4" transform="rotate(-90 54 154)" fill="#BEBEBE" fill-opacity="0.75"/>
+<circle cx="104" cy="154" r="4" transform="rotate(-90 104 154)" fill="#BEBEBE" fill-opacity="0.9"/>
 <circle cx="154" cy="154" r="4" transform="rotate(-90 154 154)" fill="#BEBEBE"/>
 <circle cx="204" cy="154" r="4" transform="rotate(-90 204 154)" fill="#BEBEBE"/>
 <circle cx="254" cy="154" r="4" transform="rotate(-90 254 154)" fill="#BEBEBE"/>
-<circle cx="4" cy="104" r="4" transform="rotate(-90 4 104)" fill="#BEBEBE"/>
-<circle cx="54" cy="104" r="4" transform="rotate(-90 54 104)" fill="#BEBEBE"/>
-<circle cx="104" cy="104" r="4" transform="rotate(-90 104 104)" fill="#BEBEBE"/>
-<circle cx="154" cy="104" r="4" transform="rotate(-90 154 104)" fill="#BEBEBE"/>
+<circle cx="4" cy="104" r="4" transform="rotate(-90 4 104)" fill="#BEBEBE" fill-opacity="0.5"/>
+<circle cx="54" cy="104" r="4" transform="rotate(-90 54 104)" fill="#BEBEBE" fill-opacity="0.65"/>
+<circle cx="104" cy="104" r="4" transform="rotate(-90 104 104)" fill="#BEBEBE" fill-opacity="0.8"/>
+<circle cx="154" cy="104" r="4" transform="rotate(-90 154 104)" fill="#BEBEBE" fill-opacity="0.95"/>
 <circle cx="204" cy="104" r="4" transform="rotate(-90 204 104)" fill="#BEBEBE"/>
 <circle cx="254" cy="104" r="4" transform="rotate(-90 254 104)" fill="#BEBEBE"/>
-<circle cx="4" cy="54" r="4" transform="rotate(-90 4 54)" fill="#BEBEBE"/>
-<circle cx="54" cy="54" r="4" transform="rotate(-90 54 54)" fill="#BEBEBE"/>
-<circle cx="104" cy="54" r="4" transform="rotate(-90 104 54)" fill="#BEBEBE"/>
-<circle cx="154" cy="54" r="4" transform="rotate(-90 154 54)" fill="#BEBEBE"/>
+<circle cx="4" cy="54" r="4" transform="rotate(-90 4 54)" fill="#BEBEBE" fill-opacity="0.4"/>
+<circle cx="54" cy="54" r="4" transform="rotate(-90 54 54)" fill="#BEBEBE" fill-opacity="0.55"/>
+<circle cx="104" cy="54" r="4" transform="rotate(-90 104 54)" fill="#BEBEBE" fill-opacity="0.7"/>
+<circle cx="154" cy="54" r="4" transform="rotate(-90 154 54)" fill="#BEBEBE" fill-opacity="0.85"/>
 <circle cx="204" cy="54" r="4" transform="rotate(-90 204 54)" fill="#BEBEBE"/>
 <circle cx="254" cy="54" r="4" transform="rotate(-90 254 54)" fill="#BEBEBE"/>
-<circle cx="4" cy="4" r="4" transform="rotate(-90 4 4)" fill="#BEBEBE"/>
-<circle cx="54" cy="4" r="4" transform="rotate(-90 54 4)" fill="#BEBEBE"/>
-<circle cx="104" cy="4" r="4" transform="rotate(-90 104 4)" fill="#BEBEBE"/>
-<circle cx="154" cy="4" r="4" transform="rotate(-90 154 4)" fill="#BEBEBE"/>
-<circle cx="204" cy="4" r="4" transform="rotate(-90 204 4)" fill="#BEBEBE"/>
+<circle cx="4" cy="4" r="4" transform="rotate(-90 4 4)" fill="#BEBEBE" fill-opacity="0.3"/>
+<circle cx="54" cy="4" r="4" transform="rotate(-90 54 4)" fill="#BEBEBE" fill-opacity="0.45"/>
+<circle cx="104" cy="4" r="4" transform="rotate(-90 104 4)" fill="#BEBEBE" fill-opacity="0.6"/>
+<circle cx="154" cy="4" r="4" transform="rotate(-90 154 4)" fill="#BEBEBE" fill-opacity="0.75"/>
+<circle cx="204" cy="4" r="4" transform="rotate(-90 204 4)" fill="#BEBEBE" fill-opacity="0.9"/>
 <circle cx="254" cy="4" r="4" transform="rotate(-90 254 4)" fill="#BEBEBE"/>
 </svg>

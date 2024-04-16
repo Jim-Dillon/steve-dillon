@@ -285,6 +285,12 @@
     }
 
     img {
+        width: 346px;
+
+        @media (min-width: 650px) {
+            width: 460px;
+        }
+
         @media (min-width: 900px) {
             width: 476px;
         }

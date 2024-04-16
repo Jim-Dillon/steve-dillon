@@ -1,5 +1,8 @@
 import styles from '/src/css/contact.module.scss'
 import Header from "../components/Header"
+import twitter from "/src/assets/twitter_icon.svg"
+import facebook from "/src/assets/fb_icon.svg"
+import instagram from "/src/assets/ig_icon.svg"
 
 const ContactPage = () => {
   return (
@@ -13,9 +16,15 @@ const ContactPage = () => {
           <a href="mailto:exhibitions.stevedillon@gmail.com">exhibitions.stevedillon@gmail.com</a>
           <h2>Follow us</h2>
           <div className={styles.smIcons}>
-            <button></button>
-            <button></button>
-            <button></button>
+            <button>
+              <img src={twitter} className={styles.twitterIcon} alt="" />
+            </button>
+            <button>
+              <img src={facebook} alt="" />
+            </button>
+            <button>
+              <img src={instagram} alt="" />
+            </button>
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ const ExhibitionsPage = () => {
                 <p className={styles.exhib_metaData}>20th - 28th July 2024</p>
                 <h2>Enniskillen Comic Fest</h2>
                 <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.</p>
-                <p className={styles.exhib_metaData}>Northern Ireland</p>
+                <p className={styles.exhib_metaData}>Enniskillen, Northern Ireland</p>
               </div>
             </div>
           </div>

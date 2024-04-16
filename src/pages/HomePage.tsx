@@ -6,7 +6,7 @@ import capAm from '/src/assets/img/home_grid/three.png'
 import punisher from '/src/assets/img/home_grid/four.png'
 import skull from '/src/assets/img/home_grid/five.png'
 import book from '/src/assets/img/2000ad.png'; 
-import store from '/src/assets/shop_img.svg';
+import store from '/src/assets/shop_img.png';
 import Button from "../components/shared/Button";
 
 const HomePage = () => {
@@ -34,7 +34,7 @@ const HomePage = () => {
         </div>
         <div className={styles.homeIntroText}>
           <p>Celebrating the work of Steve Dillon</p>
-          <p>This is a touring exhibition set up by the family of Steve Dillon, to showcase and honour the work of a comic book legend.</p>
+          <p>Touring exhibition set up by the family of Steve Dillon, to showcase and honour the work of a comic book legend.</p>
         </div>
       </div>
       <div className={styles.whatsNewSection}>

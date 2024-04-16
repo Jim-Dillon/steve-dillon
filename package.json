@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jim-dillon.github.io/steve-dillon",
+  "homepage": "https://jim-dillon.github.io/steve-dillon/",
   "scripts": {
     "dev": "vite",
     "predeploy": "vite build",

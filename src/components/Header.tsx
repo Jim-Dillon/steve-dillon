@@ -38,7 +38,7 @@ const Header = () => {
 
     return (
         <header className={scrolled ? styles.scrolled : ''}>
-            <Link to="/steve-dillon" className={styles.logo}>
+            <Link to="/steve-dillon/" className={styles.logo}>
                 {scrolled ? whiteLogo : blackLogo}
             </Link>
             <div className={styles.navRight}>
@@ -46,24 +46,24 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link 
-                                to="/about" 
+                                to="/steve-dillon/about" 
                                 className={scrolled ? styles.scrolledText : ''}>About
                             </Link>
                         </li>
                         <li>
                             <Link 
-                                to="/exhibitions"
+                                to="/steve-dillon/exhibitions"
                                 className={scrolled ? styles.scrolledText : ''}>Exhibitions
                             </Link>
                         </li>
                         <li>
                             <Link 
-                                to="/showcase"
+                                to="/steve-dillon/showcase"
                                 className={scrolled ? styles.scrolledText : ''}>Showcase
                             </Link>
                         </li>
                         <li className={styles.contactButton}>
-                            <Link to="/contact">Get in Touch</Link>
+                            <Link to="/steve-dillon/contact">Get in Touch</Link>
                         </li>
                     </ul>
                 </div>

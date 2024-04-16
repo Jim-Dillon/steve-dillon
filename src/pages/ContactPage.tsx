@@ -10,7 +10,7 @@ const ContactPage = () => {
           <h1>Get in touch</h1>
           <p>If you’re interested in including the Steve Dillon Exhibition in your upcoming show, please feel free to reach out and say hello... </p>
           <h2>Email us</h2>
-          <p>exhibitions.stevedillon@gmail.com</p>
+          <a href="mailto:exhibitions.stevedillon@gmail.com">exhibitions.stevedillon@gmail.com</a>
           <h2>Follow us</h2>
           <div className={styles.smIcons}>
             <button></button>

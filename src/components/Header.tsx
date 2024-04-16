@@ -83,16 +83,16 @@ const Header = () => {
                 <div className={styles.dropdownMenu}>
                     <ul>
                         <li>
-                            <Link to="/about">About</Link>
+                            <Link to="/steve-dillon/about">About</Link>
                         </li>
                         <li>
-                            <Link to="/exhibitions">Exhibitions</Link>
+                            <Link to="/steve-dillon/exhibitions">Exhibitions</Link>
                         </li>
                         <li>
-                            <Link to="/showcase">Showcase</Link>
+                            <Link to="/steve-dillon/showcase">Showcase</Link>
                         </li>
                         <li className={styles.contactButton}>
-                            <Link to="/contact">Get in Touch</Link>
+                            <Link to="/steve-dillon/contact">Get in Touch</Link>
                         </li>
                     </ul>
                 </div>

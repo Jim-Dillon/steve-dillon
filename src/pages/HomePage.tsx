@@ -49,10 +49,11 @@ const HomePage = () => {
           </div>
           <div className={styles.whatsNew_ColTwo}>
             <div className={styles.whatsNewContent}>
-              <h2>Name of book</h2>
+              <h2>The 2000AD Art of Steve Dillon</h2>
               <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.</p>
               <Button
-                linkPath={'https://2000ad.com/news/announcing-the-2000-ad-art-of-steve-dillon-apex-edition/'}>
+                linkPath={'https://2000ad.com/news/announcing-the-2000-ad-art-of-steve-dillon-apex-edition/'}
+                target="_blank">
                 Order a copy
               </Button>
             </div>  

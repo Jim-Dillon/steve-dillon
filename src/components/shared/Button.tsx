@@ -4,14 +4,17 @@ import styles from '/src/css/home.module.scss';
 
 export interface ButtonProps {
     children: any,
-    linkPath?: any
+    linkPath?: any,
+    target?: string
 }
 
-const Button: FunctionComponent<ButtonProps> = ( {children, linkPath} ) => {
+const Button: FunctionComponent<ButtonProps> = ( {children, linkPath, target} ) => {
   return (
     <button className={styles.btn}>
-      <Link to={linkPath}>
-        {children}
+      <Link 
+        to={linkPath}
+        target={target}>
+          {children}
       </Link>  
     </button>
   )

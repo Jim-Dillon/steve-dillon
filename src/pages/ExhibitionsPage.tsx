@@ -37,7 +37,7 @@ const ExhibitionsPage = () => {
             <p>We’re very proud every time we’re able to bring the exhibition to a new space. If you’re interested in including the Steve Dillon Exhibition in your upcoming show, please feel free to reach out and say hello... </p>
             <div className={styles.exhibFeatureButton}>
               <Button
-                linkPath="/contact">
+                linkPath="/steve-dillon/contact">
                 Say hello... 
               </Button>
             </div>

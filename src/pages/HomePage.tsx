@@ -34,7 +34,7 @@ const HomePage = () => {
         </div>
         <div className={styles.homeIntroText}>
           <p>Celebrating the work of Steve Dillon</p>
-          <p>in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu sce</p>
+          <p>This is a touring exhibition set up by the family of Steve Dillon, to showcase and honour the work of a comic book legend.</p>
         </div>
       </div>
       <div className={styles.whatsNewSection}>
@@ -50,11 +50,11 @@ const HomePage = () => {
           <div className={styles.whatsNew_ColTwo}>
             <div className={styles.whatsNewContent}>
               <h2>The 2000AD Art of Steve Dillon</h2>
-              <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.</p>
+              <p>The Steve Dillon Apex edition is released on 19th June 2024, with pre-orders available now on the 2000 AD webshop for both the standard and the webshop-exclusive slipcase editions.</p>
               <Button
                 linkPath={'https://2000ad.com/news/announcing-the-2000-ad-art-of-steve-dillon-apex-edition/'}
                 target="_blank">
-                Order a copy
+                Pre-order
               </Button>
             </div>  
           </div>
@@ -66,10 +66,12 @@ const HomePage = () => {
           <img src={store} alt="" />
         </div>
         <div className={styles.storeContent}>
-          <h2>Check out our online store</h2>
-          <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in.</p>
-          <Button>
-            Shop now
+          <h2>Look out for merchandise</h2>
+          <p>People have been asking us to sell merchandise at conventions... we have listened and we're turning some of Steve's iconic images into prints/T-shirts with your support!</p>
+          <Button
+            linkPath={'https://www.gofundme.com/f/steve-dillon-exhibition'}
+            target="_blank">
+              Support
           </Button>
         </div>
       </div>

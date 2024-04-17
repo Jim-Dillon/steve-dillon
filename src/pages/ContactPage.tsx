@@ -16,15 +16,15 @@ const ContactPage = () => {
           <a href="mailto:exhibitions.stevedillon@gmail.com">exhibitions.stevedillon@gmail.com</a>
           <h2>Follow us</h2>
           <div className={styles.smIcons}>
-            <button>
+            <a href="https://twitter.com/SDillonExhibs" target="_blank" rel="noopener noreferrer">
               <img src={twitter} className={styles.twitterIcon} alt="" />
-            </button>
-            <button>
-              <img src={facebook} alt="" />
-            </button>
-            <button>
-              <img src={instagram} alt="" />
-            </button>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100082204026570" target="_blank" rel="noopener noreferrer">
+              <img src={facebook} className={styles.twitterIcon} alt="" />
+            </a>
+            <a href="https://www.instagram.com/steve_dillon_exhibition/" target="_blank" rel="noopener noreferrer">
+              <img src={instagram} className={styles.twitterIcon} alt="" />
+            </a>
           </div>
         </div>
       </div>

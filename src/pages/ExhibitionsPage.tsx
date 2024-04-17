@@ -25,7 +25,8 @@ const ExhibitionsPage = () => {
                 <p className={styles.exhib_metaData}>Enniskillen, Northern Ireland</p>
                 <p>Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.</p>
                 <Button
-                linkPath="/steve-dillon/contact">
+                linkPath="https://www.facebook.com/EnniskillenComicFest/"
+                target="_blank">
                 Check it out! 
                 </Button>
               </div>

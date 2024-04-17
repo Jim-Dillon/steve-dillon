@@ -8,19 +8,12 @@ const Header = () => {
     const [scrolled, setScrolled] = useState(false)
     const [togglePath, setTogglePath] = useState(false);
 
-    const toggleDropdown = () => {
-        setShowDropdown(!showDropdown);
-        setScrolled(!showDropdown || window.scrollY > 50);
-        setTogglePath(!togglePath)
-
-    };
-
     useEffect(() => {
         const handleScroll = () => {
-            if (!showDropdown && window.scrollY > 50)  {
-                setScrolled(true);
-            } else {
+            if (!showDropdown && window.scrollY <= 50) {
                 setScrolled(false);
+            } else {
+                setScrolled(true);
             }
         };
 
@@ -30,6 +23,12 @@ const Header = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [showDropdown]);
+
+    const toggleDropdown = () => {
+        setShowDropdown(!showDropdown);
+        setTogglePath(!togglePath);
+        setScrolled(!scrolled);
+    };
 
     const svgPath = togglePath 
         ? "M2 6l10 10 10-10M2 26l10-10 10 10"

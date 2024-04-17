@@ -67,7 +67,8 @@ const HomePage = () => {
         </div>
         <div className={styles.storeContent}>
           <h2>Look out for merchandise</h2>
-          <p>People have been asking us to sell merchandise at conventions... we have listened and we're turning some of Steve's iconic images into prints/T-shirts with your support!</p>
+          <p>People have been asking us to sell merchandise at conventions... we have listened and we're turning some of Steve's iconic images into prints/T-shirt!</p>
+          <p>With your support, we can bring some of this merchandise to a convention near you.</p>
           <Button
             linkPath={'https://www.gofundme.com/f/steve-dillon-exhibition'}
             target="_blank">

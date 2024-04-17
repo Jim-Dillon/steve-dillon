@@ -139,40 +139,7 @@
     }
 }
 
-.aboutThirdContent {
-    margin: 0 auto 4rem;
-    width: 358px;
 
-    p {
-        font-family: "Inter", sans-serif;
-        font-size: 14px;
-        line-height: 24px;
-
-        @media (min-width: 900px) {
-            font-size: 18px;
-            width: 596px;
-        }
-
-        @media (min-width: 1200px) {
-            width: 678px;
-        }
-    }
-
-    ul {
-        font-family: "Inter", sans-serif;
-        font-size: 14px;
-        line-height: 24px;
-
-        @media (min-width: 900px) {
-            font-size: 18px;
-            width: 596px;
-        }
-
-        @media (min-width: 1200px) {
-            width: 678px;
-        }
-    }
-}
 
 .aboutSupportContainer {
     background-color: #e4e4e4;
@@ -240,7 +207,7 @@
 }
 
 
-.aboutTopContent, .steveImgContainer, .aboutSecondContent, .aboutImagesContainer, .aboutImagesContainer, .aboutThirdContent, .aboutSupportContent {
+.aboutTopContent, .steveImgContainer, .aboutSecondContent, .aboutImagesContainer, .aboutImagesContainer, .aboutSupportContent {
     @media (min-width: 650px) {
         width: 460px;
     }

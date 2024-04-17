@@ -209,7 +209,12 @@
     border-radius: 4px;
     font-size: 14px;
     margin-top: 1rem;
-    padding: 1rem 1.5rem;
+    padding: 0.75rem 1rem;
+
+    @media (min-width: 900px) {
+        font-size: 16px;
+        padding: 1rem 1.5rem;
+    }
 
     a {
         color: white;

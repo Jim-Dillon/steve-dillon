@@ -38,7 +38,7 @@ const ExhibitionsPage = () => {
             <div className={styles.exhibFeatureButton}>
               <Button
                 linkPath="/steve-dillon/contact">
-                Say hello... 
+                Say hello 
               </Button>
             </div>
           </div>

@@ -28,49 +28,49 @@ const Timeline = () => {
                     timelineImg={lucca} 
                     date={'1st - 5th Nov 2023'}
                     eventName={'Lucca Comic Con'}
-                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.'}
+                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer.'}
                     location={'Lucca, Italy'}
                 />
                 <TimelineItem 
                     timelineImg={bedford} 
                     date={'2nd-3rd Sep 2023'}
                     eventName={'NICE Bedford Comic Con'}
-                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.'}
+                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer.'}
                     location={'Bedford'}
                 />
                 <TimelineItem 
                     timelineImg={lawless} 
                     date={'27th-28th May 2023'}
                     eventName={'Lawless Comic Con'}
-                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.'}
+                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer.'}
                     location={'Bristol'}
                 />
                 <TimelineItem 
                     timelineImg={rome} 
                     date={'1st Apr - 4th May 2023'}
-                    eventName={'Comics through the eyes of an Englishman'}
-                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.'}
+                    eventName={"C'Art Gallery, Rome"}
+                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer.'}
                     location={'Rome, Italy'}
                 />
                 <TimelineItem 
                     timelineImg={queensPark} 
                     date={'6th Aug - 1st Sep 2022'}
                     eventName={'Worldly, Wicked & Wise'}
-                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.'}
+                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer.'}
                     location={'Queens Park, London'}
                 />
                 <TimelineItem 
                     timelineImg={luton} 
                     date={'2nd Jun - 7th Jul 2022'}
                     eventName={'Culture Trust, Luton'}
-                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.'}
+                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer.'}
                     location={'Luton'}
                 />
                 <TimelineItem 
                     timelineImg={panel} 
                     date={'22nd Mar - 5th Apr 2022'}
                     eventName={'Panel Gallery'}
-                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer. Ultricies pellentesque id eu scelerisque pellentesque montes cras dignissim et.'}
+                    content={'Lorem ipsum dolor sit amet consectetur. Vulputate in tristique blandit cras in adipiscing imperdiet habitasse euismod. Molestie at amet diam enim. Gravida in egestas feugiat nascetur tortor integer.'}
                     location={'Northampton'}
                 />
             </div>

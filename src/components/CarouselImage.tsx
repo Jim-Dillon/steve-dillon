@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react'
-// import styles from '../css/header.module.scss';
+// import styles from '../css/showcase.module.scss';
 
 export interface CarouselImageProps {
     src: string,

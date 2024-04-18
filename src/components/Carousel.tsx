@@ -2,6 +2,8 @@
 import { FunctionComponent } from 'react'
 import { useState } from 'react';
 import CarouselImage from './CarouselImage';
+import ArrowLeft from './ArrowLeft';
+import ArrowRight from './ArrowRight';
 
 export interface CarouselProps {
     images: string[],
@@ -20,7 +22,9 @@ const Carousel: FunctionComponent<CarouselProps> = ({ images }) => {
 
       return (
         <div>
+            <ArrowLeft onClick={goToPrevImage}/>
             <CarouselImage src={images[currentImageIndex]}/>
+            <ArrowRight onClick={goToNextImage}/>
         </div>
       )
 }

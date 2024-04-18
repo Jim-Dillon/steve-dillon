@@ -1,3 +1,23 @@
+.carouselContainer {
+    width: 390px;
+}
+
+.carousel {
+    margin: 0 auto;
+    max-width: 90%;
+
+    img {
+        border: 0.5rem solid black;
+        padding: 2rem;
+        width: 100%;
+    }
+}
+
+.carouselArrows {
+    display: flex;
+    justify-content: space-between;
+}
+
 .leftArrow {
     margin-top: 1px;
 }

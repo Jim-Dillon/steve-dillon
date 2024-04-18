@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import styles from '/src/css/showcase.module.scss'
+import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import imageData from "../components/imageData";
 
@@ -6,8 +7,10 @@ const ShowcasePage = () => {
 
   return (
     <>
-    <Link to="/steve-dillon/">Back to Home</Link>
-    <Carousel images={imageData}/>
+      <Header />
+      <div className={styles.carouselContainer}>
+        <Carousel images={imageData}/>
+      </div>
     </>
   )
 }

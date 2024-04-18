@@ -1,4 +1,4 @@
-// import styles from '../css/header.module.scss';
+import styles from '../css/showcase.module.scss';
 import { FunctionComponent } from 'react'
 import { useState } from 'react';
 import CarouselImage from './CarouselImage';
@@ -21,10 +21,12 @@ const Carousel: FunctionComponent<CarouselProps> = ({ images }) => {
       };
 
       return (
-        <div>
-            <ArrowLeft onClick={goToPrevImage}/>
+        <div className={styles.carousel}>
             <CarouselImage src={images[currentImageIndex]}/>
-            <ArrowRight onClick={goToNextImage}/>
+            <div className={styles.carouselArrows}>
+                <ArrowLeft onClick={goToPrevImage}/>
+                <ArrowRight onClick={goToNextImage}/>
+            </div>  
         </div>
       )
 }

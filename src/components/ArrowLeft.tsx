@@ -7,7 +7,7 @@ export interface ArrowLeftProps {
 }
 
 const ArrowLeft: FunctionComponent<ArrowLeftProps> = ({ onClick }) => (
-    <div className={styles.leftArrow} onClick={onClick}>
+    <div className={`${styles.leftArrow} ${styles.arrows}`} onClick={onClick}>
         {leftArrow}
     </div>
   );

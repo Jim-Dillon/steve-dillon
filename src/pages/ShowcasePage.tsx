@@ -22,7 +22,9 @@ const ShowcasePage = () => {
     <>
       <Header />
       <div className={styles.carouselContainer}>
-        <Carousel images={imageData} currentImageIndex={currentImageIndex}/>
+        <div className={styles.carouselTrackContainer}>
+          <Carousel images={imageData} currentImageIndex={currentImageIndex}/>
+        </div> 
       </div>
       <div className={styles.carouselArrowsContainer}>
         <div className={styles.carouselArrows}>

@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import styles from '/src/css/contact.module.scss'
 import Header from "../components/Header"
 import twitter from "/src/assets/twitter_icon.svg"
@@ -7,6 +8,9 @@ import instagram from "/src/assets/ig_icon.svg"
 const ContactPage = () => {
   return (
     <>
+      <Helmet>
+        <title>Contact | Steve Dillon Exhibition</title>
+      </Helmet>
       <Header/>
       <div className={styles.contactPageSection}>
         <div className={styles.contactContent}>

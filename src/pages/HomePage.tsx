@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import Header from "../components/Header";
 import styles from '../css/home.module.scss';
 import preacher from '/src/assets/img/home_grid/one.png';
@@ -12,6 +13,9 @@ import Button from "../components/shared/Button";
 const HomePage = () => {
   return (
     <>
+      <Helmet>
+        <title>Home | Steve Dillon Exhibition</title>
+      </Helmet>
       <Header />
       <div className={styles.homeIntroSection}>
         <div className={styles.homeImageContainer}>

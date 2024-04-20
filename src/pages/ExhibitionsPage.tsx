@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import styles from '/src/css/exhib.module.scss'
 import enniskillen from '/src/assets/img/enniskillen.png'
 import Header from "../components/Header"
@@ -7,6 +8,9 @@ import Button from '../components/shared/Button'
 const ExhibitionsPage = () => {
   return (
     <>
+      <Helmet>
+        <title>Exhibitions | Steve Dillon Exhibition</title>
+      </Helmet>
       <Header/>
       <div className={styles.exhibPage}>
         <div className={styles.exhibTopSection}>

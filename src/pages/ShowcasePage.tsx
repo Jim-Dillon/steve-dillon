@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import styles from '/src/css/showcase.module.scss'
 import { useState } from 'react';
 import Header from "../components/Header";
@@ -20,6 +21,9 @@ const ShowcasePage = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Showcase | Steve Dillon Exhibition</title>
+      </Helmet>
       <Header />
       <div className={styles.carouselContainer}>
         <div className={styles.carouselTrackContainer}>

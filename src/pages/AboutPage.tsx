@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import styles from '/src/css/about.module.scss'
 import steveDraw from '/src/assets/img/SD_draw.png'
 import panel from '/src/assets/img/panel_img.png' 
@@ -9,6 +10,9 @@ import Button from '../components/shared/Button';
 const AboutPage = () => {
   return (
     <>
+      <Helmet>
+        <title>About | Steve Dillon Exhibition</title>
+      </Helmet>
       <Header/>
       <div className={styles.aboutSection}>
         <div className={styles.aboutTopContent}>

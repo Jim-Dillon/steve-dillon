@@ -27,7 +27,9 @@ const Header = () => {
     const toggleDropdown = () => {
         setShowDropdown(!showDropdown);
         setTogglePath(!togglePath);
-        setScrolled(!scrolled);
+        if (window.scrollY <= 50 || showDropdown) {
+            setScrolled(!scrolled);
+        } 
     };
 
     const svgPath = togglePath 

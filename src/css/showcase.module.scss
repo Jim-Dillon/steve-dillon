@@ -3,7 +3,7 @@
     max-width: 420px;
 
     @media screen and (orientation: landscape) and (max-width: 700px) {
-        height: 364px;
+        height: 285px;
         margin: 1rem auto 0;
         max-width: 284px;
     }
@@ -37,6 +37,10 @@
         width: 100%;
     }
 
+    @media screen and (orientation: landscape) and (max-width: 750px) {
+        max-width: 75%;
+    }
+
     img {
         border: 0.5rem solid black;
         padding: 2rem;
@@ -60,7 +64,7 @@
     position: fixed;
     right: 0;
 
-    @media screen and (orientation: landscape) and (max-width: 700px) {
+    @media screen and (orientation: landscape) and (max-width: 750px) {
         max-width: 600px;
         top: 50%;
     }

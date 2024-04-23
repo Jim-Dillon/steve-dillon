@@ -41,7 +41,7 @@
         font-family: $primary-font;
 
         @media (min-width: 900px) {
-            line-height: 24px;
+            line-height: $primary-line-height;
         } 
 
         @media (min-width: 1200px) {
@@ -51,7 +51,7 @@
 
     h2 {
         font-family: $primary-font;
-        font-size: 24px;
+        font-size: $primary-line-height;
 
         @media (min-width: 900px) {
             font-size: 32px;

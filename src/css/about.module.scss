@@ -13,7 +13,7 @@
     width: $content-size-sm;
     
     h1 {
-        border-color: #e4e4e4;
+        border-color: $secondary-color;
         border-style: solid;
         border-width: 1px 0 1px 1px;
         line-height: $primary-line-height;
@@ -25,17 +25,17 @@
 
         &::before,
         &::after {
-            background-color: #e4e4e4;
+            background-color: $secondary-color;
             content: "";
             position: absolute;
         }
 
         &::before {
-            background-color: white;
-            border-color: #e4e4e4;
+            background-color: $light-color;
+            border-color: $secondary-color;
             border-style: solid;
             border-width: 1px 0px;
-            height: 35px;
+            height: 34px;
             left: -30px;
             top: -1px;
             width: 30px;
@@ -65,14 +65,14 @@
     }
 
     .aboutTopPara {
-        border-color: #e4e4e4;
+        border-color: $secondary-color;
         border-width: 1px 0 0;
         border-style: solid;
         position: relative;
 
         &::before {
             background-color: transparent;
-            border-color: #e4e4e4;
+            border-color: $secondary-color;
             border-style: solid;
             border-width: 1px 0px 0px;
             content: "";
@@ -144,7 +144,7 @@
 
 
 .aboutSupportContainer {
-    background-color: #e4e4e4;
+    background-color: $secondary-color;
     padding: 2rem 0 3.5rem;
 
     @media (min-width: 650px) {

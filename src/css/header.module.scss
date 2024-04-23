@@ -1,7 +1,7 @@
 @import 'shared.module.scss';
 
 header {
-    background-color: white;
+    background-color: $light-color;
     display: flex;
     height: 65px;
     justify-content: space-between;
@@ -36,11 +36,11 @@ header {
 }
 
 .scrolledIcon {
-    stroke: white !important;
+    stroke: $light-color !important;
 }
 
 .scrolledText {
-    color: white !important;
+    color: $light-color !important;
 }
 
 .navRight {
@@ -65,7 +65,7 @@ header {
             padding: 16px 12px;
 
             a {
-                color: black;
+                color: $primary-color;
                 text-decoration: none;
             }
         }
@@ -79,7 +79,7 @@ header {
 }
 
 .dropdownIcon {
-    stroke: black;
+    stroke: $primary-color;
 }
 
 .showDropdown {
@@ -103,7 +103,7 @@ header {
 
 
 .dropdownMenu {
-    background-color: white;
+    background-color: $light-color;
     height: 100%;
     max-width: 18rem;
     width: 100%;
@@ -121,7 +121,7 @@ header {
             padding: 12px 8px;
     
             a {
-                color: black;
+                color: $primary-color;
                 text-decoration: none;
             }
         }
@@ -129,16 +129,16 @@ header {
 }
 
 .contactButton {
-    background-color: black;
+    background-color: $primary-color;
     border-radius: 4px;
-    color: white;
+    color: $light-color;
     margin-top: 0.5rem;
     padding-bottom: 16px !important;
     padding-top: 16px !important;
     text-align: center;
 
     a {
-        color: white !important;
+        color: $light-color !important;
     }
 
     @media (min-width: 900px) {

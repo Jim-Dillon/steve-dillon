@@ -11,7 +11,7 @@
 }
 
 .contactContent {
-    background-color: white;
+    background-color: $light-color;
     border-radius: 16px;
     height: $content-size-sm;
     margin: $content-center;
@@ -44,7 +44,7 @@
     }
 
     p, a {
-        color: black;
+        color: $primary-color;
         font-family: $primary-font;
         font-size: $font-size--sm;
         line-height: $primary-line-height;
@@ -72,7 +72,7 @@
 
 .smIcons {
     a img {
-        background-color: white;
+        background-color: $light-color;
         border: none;
         border-radius: 6px;
         height: 2rem;

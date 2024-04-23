@@ -20,7 +20,7 @@
     width: $content-size-sm;
 
     @media (min-width: 650px) {
-        width: 460px;
+        width: $content-size-md;
     } 
 
     @media (min-width: 900px) {
@@ -109,7 +109,7 @@
     width: $content-size-sm;
 
     @media (min-width: 650px) {
-        width: 460px;
+        width: $content-size-md;
     }
     
     @media (min-width: 1200px) {
@@ -120,7 +120,7 @@
         width: $content-size-sm;
 
         @media (min-width: 650px) {
-            width: 460px;
+            width: $content-size-md;
         } 
 
         @media (min-width: 1200px) {

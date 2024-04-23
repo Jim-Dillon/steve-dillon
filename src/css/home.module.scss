@@ -226,7 +226,7 @@
 
 .whatsNewTitle, .whatsNewImageContainer, .whatsNewImageContainer img {
     @media (min-width: 650px) {
-        width: 460px;
+        width: $content-size-md;
     }
 
     @media (min-width: 900px) {
@@ -240,7 +240,7 @@
 
 .whatsNewContent, .whatsNewContent p {
     @media (min-width: 650px) {
-        width: 460px;
+        width: $content-size-md;
     }
 
     @media (min-width: 900px) {
@@ -284,7 +284,7 @@
     width: $content-size-sm;
 
     @media (min-width: 650px) {
-        width: 460px;
+        width: $content-size-md;
     }
 
     @media (min-width: 900px) {
@@ -295,7 +295,7 @@
         width: 346px;
 
         @media (min-width: 650px) {
-            width: 460px;
+            width: $content-size-md;
         }
 
         @media (min-width: 900px) {
@@ -311,7 +311,7 @@
     width: $content-size-sm;
 
     @media (min-width: 650px) {
-        width: 460px;
+        width: $content-size-md;
     }
 
     h2 {

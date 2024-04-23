@@ -127,7 +127,7 @@
 
         @media (min-width: 650px) {
             margin-bottom: 1.5rem;
-            width: 460px;
+            width: $content-size-md;
         }
 
         @media (min-width: 900px) {
@@ -162,7 +162,7 @@
     width: $content-size-sm;
 
     @media (min-width: 650px) {
-        width: 460px;
+        width: $content-size-md;
     }
 
     @media (min-width: 900px) {
@@ -193,7 +193,7 @@
 
         @media (min-width: 650px) {
             font-size: $font-size--md;
-            width: 460px;
+            width: $content-size-md;
         }
 
         @media (min-width: 900px) {
@@ -211,7 +211,7 @@
 
 .aboutTopContent, .steveImgContainer, .aboutSecondContent, .aboutImagesContainer, .aboutImagesContainer, .aboutSupportContent {
     @media (min-width: 650px) {
-        width: 460px;
+        width: $content-size-md;
     }
 
     @media (min-width: 900px) {

@@ -52,7 +52,7 @@
 
     p {
         font-family: $primary-font;
-        font-size: 14px;
+        font-size: $font-size--sm;
         line-height: 24px;
 
         @media (min-width: 900px) {
@@ -101,7 +101,7 @@
 
     p {
         font-family: $primary-font;
-        font-size: 14px;
+        font-size: $font-size--sm;
         line-height: 24px;
 
         @media (min-width: 900px) {
@@ -187,7 +187,7 @@
     }
 
     p {
-        font-size: 14px;
+        font-size: $font-size--sm;
         line-height: 24px;
         width: 358px;
 

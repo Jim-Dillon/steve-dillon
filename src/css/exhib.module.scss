@@ -99,7 +99,7 @@
     }
 
     @media (min-width: 1200px) {
-        font-size: 14px !important;
+        font-size: $font-size--sm !important;
     } 
 }
 
@@ -271,7 +271,7 @@
         }
     
         p {
-            font-size: 14px;
+            font-size: $font-size--sm;
             line-height: 20px;
         }
     
@@ -285,7 +285,7 @@
         margin-bottom: 1rem;
 
         p {
-            font-size: 14px;
+            font-size: $font-size--sm;
             line-height: 14px;
             margin: 0;
         }
@@ -333,7 +333,7 @@
     }
 
     p {
-        font-size: 14px;
+        font-size: $font-size--sm;
         margin: 1.8rem 0;
         line-height: 20px;
 

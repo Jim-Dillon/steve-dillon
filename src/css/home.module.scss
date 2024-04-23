@@ -79,7 +79,7 @@
 
     p {
         font-family: $primary-font;
-        font-size: 14px;
+        font-size: $font-size--sm;
         line-height: 21px;
         text-align: center;
 
@@ -193,7 +193,7 @@
     }
 
     p {
-        font-size: 14px;
+        font-size: $font-size--sm;
         line-height: 24px;
         width: 358px;
 
@@ -209,7 +209,7 @@
     background-color: black;
     border: none;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: $font-size--sm;
     margin-top: 1rem;
     padding: 0.75rem 1rem;
 
@@ -323,7 +323,7 @@
     }
 
     p {
-        font-size: 14px;
+        font-size: $font-size--sm;
         line-height: 24px;
 
         @media (min-width: 1200px) {

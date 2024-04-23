@@ -1,3 +1,5 @@
+@import 'shared.module.scss';
+
 .homeIntroSection {
     padding: 10px 12px 0px 4px;
 }
@@ -76,7 +78,7 @@
     }
 
     p {
-        font-family: "Inter", sans-serif;
+        font-family: $primary-font;
         font-size: 14px;
         line-height: 21px;
         text-align: center;
@@ -90,7 +92,7 @@
 
 .whatsNewSection {
     background-color: #f4f4f4;
-    font-family: "Inter", sans-serif;
+    font-family: $primary-font;
     padding: 3rem 1rem; 
     
     @media (min-width: 650px) {
@@ -303,7 +305,7 @@
 }
 
 .storeContent {
-    font-family: "Inter", sans-serif;
+    font-family: $primary-font;
     margin: 0 auto;
     margin-top: 30px;
     width: 358px;

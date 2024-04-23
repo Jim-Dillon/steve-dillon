@@ -1,3 +1,5 @@
+@import 'shared.module.scss';
+
 .contactPageSection {
     background-image: url(/src/assets/img/contact_background.png);
     background-position-x: -276px;
@@ -32,7 +34,7 @@
     }
 
     h1 {
-        font-family: "Kalam", cursive;
+        font-family: $header-font;
         font-size: 38px;
         margin: 0px;
 
@@ -43,7 +45,7 @@
 
     p, a {
         color: black;
-        font-family: "Inter", sans-serif;
+        font-family: $primary-font;
         font-size: 14px;
         line-height: 24px;
         margin-bottom: 1.4rem;
@@ -55,7 +57,7 @@
     }
 
     h2 {
-        font-family: "Inter", sans-serif;
+        font-family: $primary-font;
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 0.4rem;

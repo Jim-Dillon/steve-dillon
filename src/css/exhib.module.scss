@@ -1,3 +1,5 @@
+@import 'shared.module.scss';
+
 .exhibTopSection {
     border-bottom: 4px solid black; 
     padding: 0rem 0rem 3rem;
@@ -30,13 +32,13 @@
     } 
 
     h1 {
-        font-family: "Kalam", cursive;
+        font-family: $header-font;
         font-size: 42px;
         text-align: center;
     }
 
     p {
-        font-family: "Inter", sans-serif;
+        font-family: $primary-font;
 
         @media (min-width: 900px) {
             line-height: 24px;
@@ -48,7 +50,7 @@
     }
 
     h2 {
-        font-family: "Inter", sans-serif;
+        font-family: $primary-font;
         font-size: 24px;
 
         @media (min-width: 900px) {
@@ -76,7 +78,7 @@
     }   
 
     h2 {
-        font-family: "Inter", sans-serif;
+        font-family: $primary-font;
         font-size: 20px;
         margin: 1.2rem 0;
 
@@ -155,7 +157,7 @@
     }
 
     h2 {
-        font-family: "Inter", sans-serif;
+        font-family: $primary-font;
         font-size: 24px;
         width: 234px;
 
@@ -226,7 +228,7 @@
 
 
 .timelineItemContainer {
-    font-family: "Inter", sans-serif;
+    font-family: $primary-font;
     margin: 0 auto;
     padding: 1rem 0 2.5rem;
     width: 289px;
@@ -301,7 +303,7 @@
 }
 
 .exhibFeatureContent {
-    font-family: "Inter", sans-serif;
+    font-family: $primary-font;
     margin: 0 auto;
     padding: 3rem 0 2rem;
     transform: skewY(365deg);

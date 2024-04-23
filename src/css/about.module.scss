@@ -1,3 +1,5 @@
+@import 'shared.module.scss';
+
 .aboutSection {
     padding: 2rem 0 0;
 
@@ -15,7 +17,7 @@
         border-style: solid;
         border-width: 1px 0 1px 1px;
         line-height: 25px;
-        font-family: "Kalam", cursive;
+        font-family: $header-font;
         font-size: 42px;  
         padding-top: 10px;
         position: relative;
@@ -49,7 +51,7 @@
     }
 
     p {
-        font-family: "Inter", sans-serif;
+        font-family: $primary-font;
         font-size: 14px;
         line-height: 24px;
 
@@ -98,7 +100,7 @@
     width: 358px;
 
     p {
-        font-family: "Inter", sans-serif;
+        font-family: $primary-font;
         font-size: 14px;
         line-height: 24px;
 
@@ -155,7 +157,7 @@
 }
 
 .aboutSupportContent {
-    font-family: "Inter", sans-serif;
+    font-family: $primary-font;
     margin: 0 auto;
     width: 358px;
 

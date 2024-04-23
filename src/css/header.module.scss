@@ -1,10 +1,4 @@
-body {
-    margin: 0px;
-}
-
-* {
-    box-sizing: border-box;
-}
+@import 'shared.module.scss';
 
 header {
     background-color: white;
@@ -66,7 +60,7 @@ header {
         margin: 0px;
 
         li {
-            font-family: "Inter", sans-serif;
+            font-family: $primary-font;
             font-size: 16px;
             padding: 16px 12px;
 
@@ -121,7 +115,7 @@ header {
         padding: 1.5rem 1rem;
 
         li {
-            font-family: "Inter", sans-serif;
+            font-family: $primary-font;
             font-size: 16px;
             list-style: none;
             padding: 12px 8px;

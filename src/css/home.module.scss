@@ -6,7 +6,7 @@
 
 .homeImageContainer {
     display: flex;
-    margin: 0 auto;
+    margin: $content-center;
     width: 373px;
 
     @media (min-width: 800px) {
@@ -104,7 +104,7 @@
     @media (min-width: 900px) {
         display: flex;
         justify-content: space-between;
-        margin: 0 auto;
+        margin: $content-center;
         width: 820px;
     }
 
@@ -115,7 +115,7 @@
 
 .whatsNewTitle {
     line-height: $primary-line-height;
-    margin: 0 auto;
+    margin: $content-center;
     width: $content-size-sm;
 
 
@@ -162,7 +162,7 @@
 }
 
 .whatsNewImageContainer {
-    margin: 0 auto;
+    margin: $content-center;
     width: $content-size-sm;
 
     img {
@@ -172,7 +172,7 @@
 
 
 .whatsNewContent {
-    margin: 0 auto;
+    margin: $content-center;
     margin-top: 30px;
     width: $content-size-sm;
 
@@ -267,7 +267,7 @@
         flex-direction: row-reverse;
         gap: 68px;
         justify-content: space-between;
-        margin: 0 auto;
+        margin: $content-center;
         padding: 3.5rem 0rem;
         width: 820px;
     }
@@ -279,7 +279,7 @@
 }
 
 .storeImageContainer {
-    margin: 0 auto;
+    margin: $content-center;
     padding-top: 1.7rem;
     width: $content-size-sm;
 
@@ -306,7 +306,7 @@
 
 .storeContent {
     font-family: $primary-font;
-    margin: 0 auto;
+    margin: $content-center;
     margin-top: 30px;
     width: $content-size-sm;
 

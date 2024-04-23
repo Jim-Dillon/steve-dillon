@@ -15,7 +15,7 @@
 }
 
 .exhibTopContent {
-    margin: 0 auto;
+    margin: $content-center;
     transform: skewY(365deg);
     width: $content-size-sm;
 
@@ -104,7 +104,7 @@
 }
 
 .exhibImageContainer {
-    margin: 0 auto;
+    margin: $content-center;
     padding-bottom: 2rem;
     width: $content-size-sm;
 
@@ -147,7 +147,7 @@
 }
 
 .timelineTitle {
-    margin: 0 auto;
+    margin: $content-center;
     transform: skewY(365deg);
     width: 234px;
 
@@ -229,7 +229,7 @@
 
 .timelineItemContainer {
     font-family: $primary-font;
-    margin: 0 auto;
+    margin: $content-center;
     padding: 1rem 0 2.5rem;
     width: 289px;
 
@@ -304,7 +304,7 @@
 
 .exhibFeatureContent {
     font-family: $primary-font;
-    margin: 0 auto;
+    margin: $content-center;
     padding: 3rem 0 2rem;
     transform: skewY(365deg);
     width: 326px;
@@ -351,6 +351,6 @@
 }
 
 .exhibFeatureButton {
-    margin: 0 auto;
+    margin: $content-center;
     width: 120px;
 }

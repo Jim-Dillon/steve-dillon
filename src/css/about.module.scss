@@ -10,7 +10,7 @@
 
 .aboutTopContent {
     margin: 0 auto;
-    width: 358px;
+    width: $content-size-sm;
     
     h1 {
         border-color: #e4e4e4;
@@ -97,7 +97,7 @@
 
 .aboutSecondContent {
     margin: 0 auto;
-    width: 358px;
+    width: $content-size-sm;
 
     p {
         font-family: $primary-font;
@@ -115,7 +115,7 @@
     margin: 0 auto;
     margin-bottom: 1rem;
     padding: 2rem 0 0;
-    width: 358px;
+    width: $content-size-sm;
 
     @media (min-width: 900px) {
         margin-bottom: 2rem;
@@ -123,7 +123,7 @@
 
     img {
         margin-bottom: 1rem;
-        width: 358px;
+        width: $content-size-sm;
 
         @media (min-width: 650px) {
             margin-bottom: 1.5rem;
@@ -159,7 +159,7 @@
 .aboutSupportContent {
     font-family: $primary-font;
     margin: 0 auto;
-    width: 358px;
+    width: $content-size-sm;
 
     @media (min-width: 650px) {
         width: 460px;
@@ -189,7 +189,7 @@
     p {
         font-size: $font-size--sm;
         line-height: 24px;
-        width: 358px;
+        width: $content-size-sm;
 
         @media (min-width: 650px) {
             font-size: $font-size--md;

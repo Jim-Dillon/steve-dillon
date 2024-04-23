@@ -13,12 +13,12 @@
 .contactContent {
     background-color: white;
     border-radius: 16px;
-    height: 358px;
+    height: $content-size-sm;
     margin: 0 auto;
     padding: 2rem;
     position: relative;
     top: calc(50% - 180px);
-    width: 358px;
+    width: $content-size-sm;
 
     @media (min-width: 800px) {
         height: 400px;

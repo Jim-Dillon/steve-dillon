@@ -17,7 +17,7 @@
 .exhibTopContent {
     margin: 0 auto;
     transform: skewY(365deg);
-    width: 358px;
+    width: $content-size-sm;
 
     @media (min-width: 650px) {
         width: 460px;
@@ -106,7 +106,7 @@
 .exhibImageContainer {
     margin: 0 auto;
     padding-bottom: 2rem;
-    width: 358px;
+    width: $content-size-sm;
 
     @media (min-width: 650px) {
         width: 460px;
@@ -117,7 +117,7 @@
     }
 
     img {
-        width: 358px;
+        width: $content-size-sm;
 
         @media (min-width: 650px) {
             width: 460px;

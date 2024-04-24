@@ -311,12 +311,12 @@
 
     @media (min-width: 650px) {
         padding: 4rem 0 2.5rem;
-        width: 464px;
+        width: $content-size-md;
     }
 
     @media (min-width: 900px) {
         padding: 5rem 0 2.5rem;
-        width: 596px;
+        width: $content-size-lg;
     }
 
     h2 {

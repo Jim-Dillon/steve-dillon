@@ -132,7 +132,7 @@
 
         @media (min-width: 900px) {
             margin-bottom: 2rem;
-            width: 596px;
+            width: $content-size-lg;
         }
 
         @media (min-width: 1200px) {
@@ -166,7 +166,7 @@
     }
 
     @media (min-width: 900px) {
-        width: 596px;
+        width: $content-size-lg;
     }
 
     @media (min-width: 1200px) {
@@ -198,7 +198,7 @@
 
         @media (min-width: 900px) {
             font-size: 18px;
-            width: 596px;
+            width: $content-size-lg;
         }
 
         @media (min-width: 1200px) {
@@ -215,7 +215,7 @@
     }
 
     @media (min-width: 900px) {
-        width: 596px;
+        width: $content-size-lg;
     }
 
     @media (min-width: 1200px) {

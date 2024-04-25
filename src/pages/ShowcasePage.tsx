@@ -33,7 +33,7 @@ const ShowcasePage = () => {
       <div className={styles.carouselArrowsContainer}>
         <div className={styles.carouselArrows}>
           <ArrowLeft onClick={goToPrevImage}/>
-          <div className={styles.pageCounter}>
+          <div className={styles.imgCounter}>
             {currentImageIndex + 1}/36
           </div>
           <ArrowRight onClick={goToNextImage}/>
